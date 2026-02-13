@@ -11,7 +11,6 @@ phases:
 
 artifacts:
   files:
-    - '**/*'           # Include all files from the root
-  base-directory: '.'   # Package from root
+    - '**/*'
   exclude-paths:
     - .git/**/*
